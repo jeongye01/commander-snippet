@@ -1,0 +1,32 @@
+{
+   "name": "commander-snippet",
+   "version": "1.0.0",
+   "main": "dist/index.js",
+   "bin": {
+      "dirmanager": "./dist/index.js"
+   },
+   "description": "",
+   "scripts": {
+      "build": "npx tsc",
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jeongye01/commander-snippet.git"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/jeongye01/commander-snippet/issues"
+   },
+   "homepage": "https://github.com/jeongye01/commander-snippet#readme",
+   "dependencies": {
+      "commander": "^12.1.0",
+      "figlet": "^1.7.0"
+   },
+   "devDependencies": {
+      "@types/node": "^22.5.0",
+      "typescript": "^5.5.4"
+   }
+}
